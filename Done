@@ -1,6 +1,7 @@
 def firstlast(test):
-    test = test.split()
-    return test[0] + " " + test[-1]
+    return test[0] +  test[-1]
 
-test3 = input("What is your sentence?:")
+test3 = input("What is your sentence/Word?:")
 print(firstlast(test3))
+
+
